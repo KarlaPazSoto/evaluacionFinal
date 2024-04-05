@@ -1,15 +1,20 @@
 .fotoTexto{
     background-color: pink;
+    color: rgb(0, 112, 73);
     height: 100vh;
 }
 .ed{
-    background-color: red;
+    background-color: deeppink;
     height: 100vh;
 }
 .exp{
-    background-color: brown;
+    background-color: darkmagenta;
     height: 100vh;
 }
 .imgPersonal{
     width: 100%;
 }
+.edTitulo{
+    background-color: orchid;
+}
+
