@@ -9,11 +9,31 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-
+    <nav class="container-fluid">
+        <div class="col-4 flex-column d-flex align-items-center position-fixed position-absolute top-0 end-0">
+            <div class="col-6">
+                <img src="https://picsum.photos/id/684/600/400" class="imgPersonal" alt="">
+            </div>
+            <div class="col-6">
+                <ul class="nav flex-column nav-underline">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portafolio</a>
+                    </li>   
+                </ul>
+            </div>
+        </div>
     </nav>
     <header class="container-fluid">
-        <div class="fotoTexto row col-8">
+        <div class="fotoTexto row col-8 ps-5 pe-5">
             <div class="d-flex justify-content-evenly">
                 <div class="row d-flex align-content-center text-center">
                     <h1>Soy el título</h1>
@@ -55,8 +75,13 @@
             </div>
         </div>
     </section>
-    <section class="exp">
-
+    <section class="container-fluid">
+        <div class="exp row col-8 ps-5 pe-5">
+            <div class="d-flex">
+                <i class="fa-solid fa-list-check fa-3x m-2"></i>
+                <h2>Experiencia</h2>
+            </div>
+        </div>
     </section>
     <section class="pfolio">
 
