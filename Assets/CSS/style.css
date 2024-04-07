@@ -1,11 +1,17 @@
+
 .fotoTexto{
-    background-color: pink;
-    color: rgb(0, 112, 73);
+    background-color: #99004d;
+    color: white;
     height: 100vh;
 }
 .ed{
-    background-color: deeppink;
+    background-color: #99003d;
+    color: white;
     height: 100vh;
+}
+.edTitulo{
+    background-color:#800033;
+    ;
 }
 .exp{
     background-color: darkmagenta;
@@ -14,7 +20,11 @@
 .imgPersonal{
     width: 100%;
 }
-.edTitulo{
-    background-color: orchid;
+.pFolio{
+    background-color: blueviolet;
+    height: 100vh;
 }
-
+.barra{
+    background-color: #ff5050;
+    height: 100vh;
+}
